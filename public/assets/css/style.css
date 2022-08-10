@@ -1,0 +1,39 @@
+
+/***** ROOT FOR THEME PAGES STYLE*****/
+@import "../css/header.css";
+@import "../css/landing.css";
+@import "../css/zoning.css";
+@import "../css/footer.css";
+@import "../css/info-page.css";
+@import "../css/contact.css";
+@import "../css/privacy-policy.css";
+@import "../css/essence.css";
+
+/***** ROOT FOR THEME COLOR*****/
+:root
+{
+    --skyblue-bg-color:#4ABFEA;
+    --skyblue-text-color:#4ABFEA;
+    --black-bg-color:#000000;
+    --black-text-color:#000000;
+    --white-bg-color:#ffffff;
+    --white-text-color:#ffffff;
+    --grey-text-color:#969696;
+    --grey-bg-color:#1b1b1b;
+
+}
+
+/***** ROOT FOR THEME TEXT*****/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+:root
+{
+    --primary-theme-text:'Montserrat', sans-serif;
+}
+
+body{
+    font-family:var(--primary-theme-text) ;
+}
+html, body{
+    font-family:var(--primary-theme-text) ;
+    overflow-x:hidden !important;
+}
